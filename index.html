@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Upgrade</title>
+    <style>
+        header {
+            background-color: darkcyan;
+            color: gold;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 15px;
+        }
+
+        .nav-1 {
+            text-decoration: none;
+            color: gold;
+        }
+
+        main {
+            margin: auto;
+            background-color: aqua;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .pix {
+            border-radius: 10px;
+            border: 10px solid goldenrod;
+            width: 200px;
+            height: 200px;
+        }
+
+        section h2 {
+            color: darkgreen;
+            text-transform: uppercase;
+            border-radius: 10px 25px;
+            border: 5px solid gold;
+            display: inline-block; 
+            padding: 5px 15px;
+        }
+
+        .Skills {
+            list-style: none;
+            line-height: 2.5;
+        }
+
+        aside {
+            background-color: red;
+            color: black;
+            width: 300px;
+            justify-self: center;
+        }
+
+        aside h3 {
+            color: darkgreen;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+        aside ul{
+        list-style: none;
+        line-height: 2.5;
+        text-align: center;
+        padding: 10px;
+        }
+        article h2{
+            text-transform: uppercase;
+            color: darkgreen;
+             border-radius: 10px 25px;
+            border: 5px solid gold;
+            display: inline-block;
+            padding: 5px 15px;
+        }
+        
+
+        .Contact h2 {
+            color: darkgreen;
+        }
+
+        footer {
+            background-color: darkcyan;
+            color: gold;
+            text-align: center;
+            padding: 15px;
+        }
+
+        footer a {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- HEADER: Contains main title and navigation -->
+    <header>
+        <h1>Olaide Adenusi</h1>
+        <p>Aspiring Frontend Developer</p>
+    
+
+    <!-- NAV -->
+    <nav>
+        <ul>
+            <li><a href="#" class="nav-1">HOME</a></li>
+            <li><a href="#About" class="nav-1">About</a></li>
+            <li><a href="#Skills" class="nav-1">Skills</a></li>
+            <li><a href="#Contact" class="nav-1">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- MAIN SECTION - content area -->
+    <main>
+
+        <!-- ABOUT SECTION -->
+        <section id="About">
+            <figure>
+                <img class="pix" src="image.png";>
+                <figcaption>Adenusi Olaide - Frontend Developer</figcaption>
+            </figure>
+
+            <h2>About Me</h2>
+            <p>My name is Olaide, I was born in 1986. This is my upgraded portfolio. I was born in Lagos, my favorite food is Rice in all forms.
+               I am a creative problem-solver transitioning into the world of web development.
+               With a passion for technology and design, I am building my skills in HTML,
+               CSS, and JavaScript to create beautiful and intuitive user experiences.
+               I believe that great websites should not only look good but also be accessible and
+               easy to use for everyone.</p>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="Skills">
+            <h2>Skills & Tools</h2>
+            <ul class="Skills">
+                <li>HTML Basics</li>
+                <li>Problem-Solving &amp; Critical Thinking</li>
+                <li>Effective Communication</li>
+                <li>Time Management</li>
+                <li>Attention to Detail</li>
+                <li>Adaptability and Continuous Learning</li>
+            </ul>
+        </section>
+
+        <!-- ARTICLE: Weekly Reflection -->
+        <article>
+            <h2>Weekly Reflection</h2>
+            <p>This week I learned about Semantic HTML. Now I know and understand tags like
+               "header", "nav", "section", and "footer" which helps screen readers and Google understand my page better!</p>
+        </article>
+
+        <!-- ASIDE: Quick Facts -->
+        <aside>
+            <h3>Quick Facts</h3>
+            <ul>
+                <li>Location: Lagos, Nigeria</li>
+                <li>Favourite Language: English</li>
+                <li>Coffee vs Tea: Both</li>
+                <li>Program: Naija Girls in Tech</li>
+                <li>Goal: Build a portfolio</li>
+            </ul>
+        </aside>
+
+        <!-- CONTACT SECTION -->
+        <section id="Contact" class="Contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:adenusiolaide@gmail.com">adenusiolaide@gmail.com</a></p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER: copyright + back to top link -->
+    <footer>
+        <p> (c) 2026 Olaide Adenusi. All rights reserved.</p>
+        <a href="#">Back to Top</a>
+    </footer>
+
+</body>
+</html>
