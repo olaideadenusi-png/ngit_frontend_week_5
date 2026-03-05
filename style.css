@@ -1,0 +1,173 @@
+body{background-color: rgb(233, 235, 109);
+   /* /body color    */
+} 
+header{
+    color: darkorange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive; /*typography */
+    font-weight: bold;
+        }
+        .logo{ /*the frontend logo */
+            align-items: center;
+            width: 120px;
+            height: 80px;
+        }
+         nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+nav ul li {
+            list-style: none;
+            margin: 15px;
+        }
+
+        .nav-1 {
+            text-decoration: none;
+            color: darkorange;
+            font-family: cursive; /*typography */
+            font-weight: bold;
+        }
+
+        h1{  /*my name header */
+            background-color: rgb(6, 85, 85);
+            color: darkorange;
+            text-align: center;}
+
+        #About{ /*layout */
+            background-color: bisque;
+            border-radius: 10px 25px;
+            border: 5px solid rgb(88, 5, 33);
+            margin: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .About-me{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+        main {
+            margin: auto;
+            text-align: center;
+            line-height: 2;
+        }
+        main h2{
+            color: darkorange;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        main p{
+           font-family:sans-serif; /*typography */
+            text-align: center; 
+            padding: 5px 15px;
+            line-height: 2;
+        }
+
+        .pix {
+            border-radius: 50px;
+            border: 10px solid rgb(88, 5, 33);
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+ figcaption {
+    color: darkorange;
+    font-style: italic;    /*typography */
+}
+        
+  #Skills{
+    background-color: rgb(88, 5, 33);
+    border-radius: 5px 25px;
+    border: 5px solid bisque;
+    margin: 30px;
+    font-family: sans-serif;
+    
+  }
+
+ .Skills {
+         list-style: none;
+         line-height: 2;
+         text-align: center;
+        }
+
+        aside {
+           background-color:white;
+           color: green;
+           justify-self: center;
+           padding: 15px;
+           border-radius: 5px 25px;
+           border: 5px solid rgb(6, 85, 85);
+           font-family: sans-serif;
+           margin: 20px;
+        }
+
+        aside h3 {
+            color: darkorange;
+            text-align: center;
+            text-transform: uppercase;
+            
+        }
+        aside ul{
+        list-style: none;
+        line-height: 2.5;
+        text-align: center;
+        padding: 10px;
+        font-family: cursive;
+        }
+        article{
+            background-color: bisque;
+            border-radius: 10px 25px;
+            border: 5px solid rgb(88, 5, 33);;
+            margin: 30px;
+            line-height: 2;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        article h2{
+            text-transform: uppercase;
+            color: darkorange;
+        }
+        .Contact{
+            background-color: rgb(88, 5, 33);
+            border: 5px solid bisque;
+            border-radius: 10px 25px;
+            padding: 5px 15px;
+            margin: 20px;
+        }
+
+        .Contact h2 {
+            color: darkorange;
+            border: 5px solid gold;
+            border-radius: 10px 25px;
+            display: inline-block;
+            padding: 5px 15px;
+            text-align: center;
+        }
+        .Contact p{
+            color:red;
+            text-align: center;
+        }
+        .Contact a{
+            color: green;
+        }
+
+            
+
+        footer {
+            background-color: bisque;
+            color: green;
+            text-align: center;
+            padding: 15px;
+            border: 5px solid rgb(88, 5, 33);
+            border-radius: 10px 25px;
+        }
+
+        footer a {
+            color: red;
+        }

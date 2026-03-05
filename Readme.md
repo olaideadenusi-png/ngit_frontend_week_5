@@ -1,0 +1,2 @@
+PADDING - It is used when you want to space the content away from the edges or border of its own container (for example making a button text not touch the button's edges).
+MARGING - It is used when you want to create space between one element and another separate element on the page (e.g., adding space between two different paragraphs or images)
